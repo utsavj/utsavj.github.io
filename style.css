@@ -1,0 +1,149 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        box-sizing: border-box;
+}
+
+body{
+    background-color: #918467;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h1{
+    font-size: 3rem;
+    color: seashell;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 0%;
+}
+
+header h2{
+    font-family: 'Nunito', sans-serif;
+    color: seashell;
+    font-size: x-large;
+    font-weight: normal;
+    padding-left: 0.1%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+.fa-file-pdf, .fa-envelope, .fa-linkedin, .fa-github{
+    font-size: 1.5em;
+    padding-right: 0.5rem;
+    padding-top: 0.5em;
+    padding-left: 0.2%;
+    color:seashell;
+}
+
+.info{
+    padding-top: 48vh;
+    padding-left: 48vh;
+    width: auto;
+    height: 100vh;
+    display: none;
+    background-color: #55756b;
+}
+
+#myDIV {
+    animation-direction:normal;
+  }
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.about{
+    width: 100%;
+    height:35vh;
+}
+
+.aboutme{
+    background-color: #5b6278 ;
+    float: left;
+    width: 60%;
+    height: 16rem;
+    padding: 3%;
+    animation: slide-left 5s;
+}
+
+
+.aboutme p{
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    color: seashell;
+    font-weight: 600;
+}
+
+.aboutme h2{
+    font-size: 2rem;
+    color: seashell;
+    font-family: 'Nunito', sans-serif;
+}
+
+.skills{
+    width: 40%;
+    height: 16rem;
+    float: left;
+    padding: 3%;
+    background-color: #918467;
+}
+
+.skills ul{
+    font-family: 'Nunito',sans-serif;
+    color: seashell;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.skills h2{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: seashell;
+}
+
+.projects{
+    height: 40rem;
+    width: 100%;
+    background-color: #55756b;
+    padding: 3%;
+    padding-top: 19.6%;
+}
+
+.projects h2{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: seashell;
+    text-align: center;
+
+}
+
+.projects ul{
+    font-family: 'Nunito',sans-serif;
+    color: seashell;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 1%;
+}
+
+.footer .fa-file-pdf, .footer .fa-envelope, .footer .fa-linkedin, .footer .fa-github{
+    color: #292f47;
+    padding: 0.7%;
+}
+
+.footer p{
+    color:#292f47 ;
+    padding: 0.5%;
+}
